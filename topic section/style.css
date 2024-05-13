@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 10px; /* Added the unit for padding */
+     
+    }
+
+.topic-content {
+    display: flex;
+    align-items: baseline;
+    align-content: space-between;
+    flex-wrap: wrap;
+    height: 100%;
+    padding: 0 84px 0 84px;
+}
+
+.main-title {
+    color: #262626;
+font-family: Poppins;
+font-size: 32px;
+font-weight: 700;
+padding-left: 84px;
+}
+
+.image-button {
+    border-radius: 20px;
+    border-top-color: blue;
+    border-right-color: blue;
+    border-bottom-color: blue;
+    border-left-color: blue;
+
+    
+} 
